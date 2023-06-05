@@ -1,37 +1,55 @@
 // https://en.wikipedia.org/wiki/Hebrew_numerals
 
-const one = ['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט']
-
-const ten = ['י', 'כ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פ', 'צ']
-
-const hundred = ['ק', 'ר', 'ש', 'ת', 'ך', 'ם', 'ן', 'ף', 'ץ']
-
-/**
- * Convert number to Hebrew script number.
- */
-
-export function make(n: number) {
-  const a = Math.floor(n / 100)
-  const x = n % 100
-  const b = Math.floor(n / 10)
-  const y = x % 10
-
-  const s = []
-  if (a) {
-    s.push(hundred[a - 1])
-  }
-  if (b) {
-    s.push(ten[b - 1])
-  }
-  if (y) {
-    s.push(one[y - 1])
-  }
-
-  return s.join('')
+const list = {
+  1: 'א',
+  2: 'ב',
+  3: 'ג',
+  4: 'ד',
+  5: 'ה',
+  6: 'ו',
+  7: 'ז',
+  8: 'ח',
+  9: 'ט',
+  10: 'י',
+  11: 'יא',
+  12: 'יב',
+  13: 'יג',
+  14: 'יד',
+  15: 'ט״ו',
+  16: 'ט״ז',
+  17: 'יז',
+  18: 'יח',
+  19: 'יט',
+  20: 'כ',
+  30: 'ל',
+  40: 'מ',
+  50: 'נ',
+  60: 'ס',
+  70: 'ע',
+  80: 'פ',
+  90: 'צ',
+  100: 'ק',
+  200: 'ר',
+  300: 'ש',
+  400: 'ת',
+  500: 'ך',
+  600: 'ם',
+  700: 'ן',
+  800: 'ף',
+  900: 'ץ',
+  1000: "א'",
+  2000: 'ב׳',
+  5000: "ה'",
+  10000: "י'",
+  100000: "ק'",
 }
 
-/**
- * Convert Hebrew script number to number.
- */
-
-export function read(text: string) {}
+const list2 = {
+  15: 'י״ה',
+  16: 'י״ו',
+  20: 'ך',
+  40: 'ם',
+  50: 'ן',
+  80: 'ף',
+  90: 'ץ',
+}
