@@ -8,7 +8,7 @@
 
 <h3 align='center'>@tunebond/size</h3>
 <p align='center'>
-  Converting between numbers in multiple languages in TypeScript
+  Number conversion in multiple languages in TypeScript
 </p>
 
 <br/>
