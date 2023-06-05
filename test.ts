@@ -11,3 +11,5 @@ function test(a: unknown, b: unknown) {
     throw new Error(`${a} != ${b}`)
   }
 }
+
+console.log('test completion')
