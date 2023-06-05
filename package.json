@@ -13,7 +13,7 @@
     "scan": "concurrently --kill-others \"tsc -w\" \"tsc-alias -w\"",
     "lint": "eslint --ext .ts ./make",
     "lint:tool": "npm run lint -- --fix",
-    "test": "TEST_CALL=1 npx tsx test.ts",
+    "test": "npx tsx test.ts",
     "host": "pnpm make && npm publish --access=public"
   },
   "devDependencies": {
