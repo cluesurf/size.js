@@ -26,7 +26,7 @@ npm i @tunebond/size
 ## Example
 
 ```ts
-import size from './index.js'
+import size from '@tunebond/size'
 
 // test a === b
 // (this is the hebrew number for 123)
