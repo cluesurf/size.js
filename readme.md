@@ -25,6 +25,7 @@ npm i @tunebond/size
 
 ## Notes
 
+- [Writing systems](https://en.wikipedia.org/wiki/List_of_writing_systems)
 - https://en.wikibooks.org/wiki/Chinese_(Mandarin)/Numbers
 - https://improvemandarin.com/chinese-numbers/
 - https://ling-app.com/ko/korean-numbers/
