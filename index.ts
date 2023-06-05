@@ -3,6 +3,7 @@ import * as greek from './code/greek.js'
 import * as arabic from './code/arabic.js'
 import * as tibetan from './code/tibetan.js'
 import * as devanagari from './code/devanagari.js'
+import * as thai from './code/thai.js'
 
 const size = {
   hebrew,
@@ -10,6 +11,7 @@ const size = {
   arabic,
   tibetan,
   devanagari,
+  thai,
 }
 
 export default size
