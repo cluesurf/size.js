@@ -101,6 +101,12 @@ and run the tests with:
 pnpm test
 ```
 
+Oh also you can install the dependencies with:
+
+```
+pnpm install
+```
+
 (Just make sure you have `pnpm` installed, which is an alternative to
 npm/yarn):
 

@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Hebrew_numerals
+
 const one = ['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט']
 
 const ten = ['י', 'כ', 'ל', 'מ', 'נ', 'ס', 'ע', 'פ', 'צ']
