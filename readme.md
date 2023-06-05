@@ -61,6 +61,9 @@ create a way to convert a JavaScript number to the native writing system
 number, using their preferred standard system, and to convert it back
 from the native writing system format into JavaScript. So 2 functions.
 
+For now, we are only focusing on basic numbers, i.e. "cardinal numbers",
+not ordinal numbers or other types of numbers.
+
 ## Walkthrough
 
 This library in general has 2 methods per writing system:
