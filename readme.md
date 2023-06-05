@@ -93,6 +93,21 @@ system, and go into a tiny bit of depth. Ideally we would cover numbers
 up to 1 trillion, so it should handle large numbers, but if you can't
 find that information, just skip it for now.
 
+You can test it working by adding to the
+[test.ts](https://github.com/tunebond/size.js/blob/make/test.ts) file,
+and run the tests with:
+
+```
+pnpm test
+```
+
+(Just make sure you have `pnpm` installed, which is an alternative to
+npm/yarn):
+
+```
+npm install -g pnpm
+```
+
 ## Notes
 
 - [Writing systems](https://en.wikipedia.org/wiki/List_of_writing_systems)
