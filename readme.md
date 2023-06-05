@@ -81,6 +81,15 @@ See the [code](https://github.com/tunebond/size.js/tree/make/code)
 folder for the current and future supported later. Once we are closer to
 finishing them we will document them here in the readme.
 
+## Implementing
+
+If you are helping to implement these functions, you might have to do a
+little browsing around GitHub, Wikipedia, and the web in general to find
+how the numbers work in your particular focused language or writing
+system, and go into a tiny bit of depth. Ideally we would cover numbers
+up to 1 trillion, so it should handle large numbers, but if you can't
+find that information, just skip it for now.
+
 ## Notes
 
 - [Writing systems](https://en.wikipedia.org/wiki/List_of_writing_systems)
