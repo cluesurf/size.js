@@ -4,7 +4,7 @@ const NUMBER10 = ['ι', 'κ', 'λ', 'μ', 'ν', 'ξ', 'ο', 'π', 'ϟ']
 
 const NUMBER100 = ['ρ', 'σ', 'τ', 'υ', 'φ', 'χ', 'ψ', 'ω', 'ϡ']
 
-export function make(n) {
+export function make(n: number) {
   const a = Math.floor(n / 100)
   const x = n % 100
   const b = Math.floor(n / 10)
