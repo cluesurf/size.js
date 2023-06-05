@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Sundanese_numerals
+
 const list = ['᮰', '᮱', '᮲', '᮳', '᮴', '᮵', '᮶', '᮷', '᮸', '᮹']
 
 const listMake = list.reduce<Record<string, string>>((m, x, i) => {
