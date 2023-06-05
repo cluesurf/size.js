@@ -120,6 +120,7 @@ npm install -g pnpm
 ## Notes
 
 - [Writing systems](https://en.wikipedia.org/wiki/List_of_writing_systems)
+- https://en.wikipedia.org/wiki/Arabic_numerals
 - https://en.wikipedia.org/wiki/Indian_numbering_system
 - https://en.wikibooks.org/wiki/Chinese_(Mandarin)/Numbers
 - https://improvemandarin.com/chinese-numbers/
