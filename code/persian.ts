@@ -1,6 +1,4 @@
-// https://en.wikipedia.org/wiki/Abjad_numerals
-
-const list = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩']
+const list = ['٠', '١', '٢', '٣', '۴', '۵', '۶', '٧', '٨', '٩']
 
 const listMake = list.reduce<Record<string, string>>((m, x, i) => {
   m[i] = x
