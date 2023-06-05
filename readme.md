@@ -100,6 +100,7 @@ find that information, just skip it for now.
 - https://improvemandarin.com/chinese-numbers/
 - https://ling-app.com/ko/korean-numbers/
 - https://www.koreanclass101.com/blog/2019/10/24/korean-numbers/
+- [Korean number algorithms](https://github.com/AdamDavisDeveloper/learn-korean-numbers/blob/master/app.js)
 
 ## License
 
