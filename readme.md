@@ -6,7 +6,7 @@
 <br/>
 <br/>
 
-<h3 align='center'>@termsurf/size</h3>
+<h3 align='center'>@cluesurf/size</h3>
 <p align='center'>
   Number conversion in multiple languages in TypeScript
 </p>
@@ -18,15 +18,15 @@
 ## Installation
 
 ```
-pnpm add @termsurf/size
-yarn add @termsurf/size
-npm i @termsurf/size
+pnpm add @cluesurf/size
+yarn add @cluesurf/size
+npm i @cluesurf/size
 ```
 
 ## Example
 
 ```ts
-import size from '@termsurf/size'
+import size from '@cluesurf/size'
 
 // test a === b
 // (this is the hebrew number for 123)
@@ -59,7 +59,7 @@ interesting ways of grouping the numbers, so it can get rather complex
 potentially, but most cases it's pretty straightforward.
 
 The goal is to, for each writing system in the
-[code](https://github.com/termsurf/size.js/tree/make/code) folder,
+[code](https://github.com/cluesurf/size.js/tree/make/code) folder,
 create a way to convert a JavaScript number to the native writing system
 number, using their preferred standard system, and to convert it back
 from the native writing system format into JavaScript. So 2 functions.
@@ -83,7 +83,7 @@ size.hebrew.make(123) // => קג
 size.hebrew.read('קג') // => 123
 ```
 
-See the [code](https://github.com/termsurf/size.js/tree/make/code)
+See the [code](https://github.com/cluesurf/size.js/tree/make/code)
 folder for the current and future supported later. Once we are closer to
 finishing them we will document them here in the readme.
 
@@ -105,7 +105,7 @@ Some of the next ones we should accomplish are:
 - Georgian
 
 You can test it working by adding to the
-[test.ts](https://github.com/termsurf/size.js/blob/make/test.ts) file,
+[test.ts](https://github.com/cluesurf/size.js/blob/make/test.ts) file,
 and run the tests with:
 
 ```
@@ -140,17 +140,17 @@ npm install -g pnpm
 
 MIT
 
-## TermSurf
+## ClueSurf
 
-This is being developed by the folks at [TermSurf](https://term.surf), a
+This is being developed by the folks at [ClueSurf](https://clue.surf), a
 California-based project for helping humanity master information and
-computation. TermSurf started off in the winter of 2008 as a spark of an
+computation. ClueSurf started off in the winter of 2008 as a spark of an
 idea, to forming a company 10 years later in the winter of 2018, to a
 seed of a project just beginning its development phases. It is entirely
 bootstrapped by working full time and running
-[Etsy](https://etsy.com/shop/termsurf) and
+[Etsy](https://etsy.com/shop/cluesurf) and
 [Amazon](https://www.amazon.com/s?rh=p_27%3AMount+Build) shops. Also
-find us on [Facebook](https://www.facebook.com/termsurf),
-[Twitter](https://twitter.com/termsurf), and
-[LinkedIn](https://www.linkedin.com/company/termsurf). Check out our
+find us on [Facebook](https://www.facebook.com/cluesurf),
+[Twitter](https://twitter.com/cluesurf), and
+[LinkedIn](https://www.linkedin.com/company/cluesurf). Check out our
 other GitHub projects as well!
